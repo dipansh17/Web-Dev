@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colgroup</title>
+    <style>
+        table,
+        tr,
+        td,
+        caption {
+            border: 1px solid black;
+            border-collapse: collapse;
+            caption-side: bottom;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <colgroup>
+            <!-- <col span="3" style="background-color: green;"> -->
+
+            <!-- <col span="1"> -->
+            <!-- <col span="3" style="background-color: pink;"> -->
+
+            <col span="1">
+            <col span="1" style="background-color: pink;">
+            <col span="1">
+            <col span="1" style="background-color: pink;">
+
+            <!-- hide krdo bhyi -->
+            <col span="1" style="visibility: collapse;">
+            <!-- extraction ke liye? // visibility -->
+
+        </colgroup>
+        <tr>
+            <td>col 1</td>
+            <td>col 2</td>
+            <td>col 3</td>
+            <td>col 4</td>
+            <td>col 5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+</body>
+
+</html>
