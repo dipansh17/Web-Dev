@@ -1,0 +1,27 @@
+html{
+    background-color: pink;
+
+
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    
+
+}
+.Green{
+    background-color: green;
+}
+.Purple{
+    background-color: purple;
+}
+.Yellow{
+    background-color: yellow;
+}
+div{
+    display: inline;
+}
+span{
+    display: block;
+}
