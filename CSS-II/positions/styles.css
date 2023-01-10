@@ -1,0 +1,23 @@
+/* .mydiv{
+    border: 1px solid black;
+    position:relative;
+   left: 50px;
+   top: 50px;
+    
+}
+ */
+ .mydiv{
+    background-color: aqua;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+ }
+ .divc{
+    border: 1px solid black;
+    top: 15px;
+    left:25px;
+    background-color: red;
+    color: white;
+    position: sticky;
+ }
