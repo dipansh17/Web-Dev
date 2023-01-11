@@ -1,0 +1,37 @@
+.mybox{
+    margin: 20px;
+    width: 25%;
+    border-radius: 10%;
+    padding: 15px;
+    /* border-collapse: collapse; */
+    background-color: black;
+    color: white;
+}
+.mybox img{
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+}
+.mybox h2{
+    font-size: 20px;
+}
+.mybox hr{
+    width: 250px;
+    border: 1px solid black;
+    border-color:#ededed ;
+    margin-top:5% ;
+}
+.mybox p-final{
+    display: inline;
+    padding-top: 5%;
+}
+.mybox p{
+    opacity: 50%;
+    margin-left: 5%;
+}
+.dis{
+background-color: aqua;
+border-radius: 5px;
+padding: 0.5em;
+font-size: 85%;
+margin-left: 5%;
+}
