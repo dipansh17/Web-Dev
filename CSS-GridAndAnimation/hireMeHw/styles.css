@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.button{
+    position: relative;
+    top: 50%;
+    background-color: rgb(255,8,8);
+    width: 140px;
+    height: 65px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 3px;
+    display: inline-block;
+    left: 50%;
+    box-shadow: width 0.7s ease-in-out;
+    scale: 2;
+}
+.black{
+    background-color: black;
+    height: 100%;
+    width: 0%;
+    position:absolute;
+    transition: width 0.7s ease-in-out;
+}
+b{
+    color: white;
+    position: absolute;
+    top: 36%;
+    left: 26%;
+    font-size: larger;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.button:hover .black{
+    width: 100%;
+}
