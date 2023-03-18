@@ -10,7 +10,7 @@ const userInfoContainer = document.querySelector(".user-info-container");
 // // Needed Variables
 
 let oldTab = userTab;
-const API_KEY = "73634f5d245b17c0993e397f98b22249";
+const API_KEY = ""; //Your api key
 oldTab.classList.add("current-tab");
 getFromSessionStorage();
 // something missing
